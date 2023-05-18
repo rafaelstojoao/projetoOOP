@@ -2476,6 +2476,32 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAGILDg1EEBhRqI="
 							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGILGhMLj2ciyk=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 600,
+							"top": 352,
+							"width": 161,
+							"height": 90,
+							"text": "falta fazer o get e set fonte, observacoes, tema"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGILGkU10OBgAk=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 864,
+							"top": 376,
+							"width": 169,
+							"height": 64,
+							"text": "falta fazer get e set termo"
 						}
 					]
 				},
