@@ -2483,6 +2483,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
+							"fillColor": "#f30000",
 							"font": "Arial;13;0",
 							"left": 600,
 							"top": 352,
@@ -2496,6 +2497,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
+							"fillColor": "#ff0000",
 							"font": "Arial;13;0",
 							"left": 864,
 							"top": 376,
