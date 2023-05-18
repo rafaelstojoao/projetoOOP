@@ -327,7 +327,7 @@
 											"top": 230,
 											"width": 270,
 											"height": 13,
-											"text": "+void set nome(String nome)",
+											"text": "+void setNome(String nome)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -344,7 +344,7 @@
 											"top": 245,
 											"width": 270,
 											"height": 13,
-											"text": "+void get nome(String nome)",
+											"text": "+void getNome(String nome)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -361,7 +361,7 @@
 											"top": 260,
 											"width": 270,
 											"height": 13,
-											"text": "+void set contato(String contato)",
+											"text": "+void setContato(String contato)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -378,7 +378,7 @@
 											"top": 275,
 											"width": 270,
 											"height": 13,
-											"text": "+void get contato(String contato)",
+											"text": "+void getContato(String contato)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1435,7 +1435,7 @@
 											"top": 365,
 											"width": 262,
 											"height": 13,
-											"text": "+void get descricao(String descricao)",
+											"text": "+void getDescricao(String descricao)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1452,7 +1452,7 @@
 											"top": 380,
 											"width": 262,
 											"height": 13,
-											"text": "+void set descricao(String descricao)",
+											"text": "+void setDescricao(String descricao)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1469,7 +1469,7 @@
 											"top": 395,
 											"width": 262,
 											"height": 13,
-											"text": "+void get nota(Float nota)",
+											"text": "+void getNota(float nota)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1486,7 +1486,7 @@
 											"top": 410,
 											"width": 262,
 											"height": 13,
-											"text": "+void set nota(Float nota)",
+											"text": "+void setNota(float nota)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1821,7 +1821,7 @@
 											"top": 290,
 											"width": 230,
 											"height": 13,
-											"text": "+void set nome(String nome)",
+											"text": "+void setNome(String nome)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1838,7 +1838,7 @@
 											"top": 305,
 											"width": 230,
 											"height": 13,
-											"text": "+void get nome(String nome)",
+											"text": "+void getNome(String nome)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1855,7 +1855,7 @@
 											"top": 320,
 											"width": 230,
 											"height": 13,
-											"text": "+void set descricao(String descricao)",
+											"text": "+void setDescricao(String descricao)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1872,7 +1872,7 @@
 											"top": 335,
 											"width": 230,
 											"height": 13,
-											"text": "+void get descricao(String descricao)",
+											"text": "+void getDescricao(String descricao)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2577,7 +2577,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDPl+D6A1zg="
 							},
-							"name": "void set nome",
+							"name": "void setNome",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2585,8 +2585,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFLK9mhKizo="
 									},
-									"name": "String nome",
-									"type": ""
+									"name": "String nome"
 								}
 							]
 						},
@@ -2596,7 +2595,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDPl+D6A1zg="
 							},
-							"name": "void get nome",
+							"name": "void getNome",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2604,8 +2603,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFQA/21yo3g="
 									},
-									"name": "String nome",
-									"type": ""
+									"name": "String nome"
 								}
 							]
 						},
@@ -2615,7 +2613,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDPl+D6A1zg="
 							},
-							"name": "void set contato",
+							"name": "void setContato",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2623,8 +2621,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFYbf3EehAY="
 									},
-									"name": "String contato",
-									"type": ""
+									"name": "String contato"
 								}
 							]
 						},
@@ -2634,7 +2631,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDPl+D6A1zg="
 							},
-							"name": "void get contato",
+							"name": "void getContato",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2642,8 +2639,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFYnn3GKXQg="
 									},
-									"name": "String contato",
-									"type": ""
+									"name": "String contato"
 								}
 							]
 						}
@@ -3009,7 +3005,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDSOhz8MdK0="
 							},
-							"name": "void get descricao",
+							"name": "void getDescricao",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3017,8 +3013,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFjNtnQG4C4="
 									},
-									"name": "String descricao",
-									"type": ""
+									"name": "String descricao"
 								}
 							]
 						},
@@ -3028,7 +3023,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDSOhz8MdK0="
 							},
-							"name": "void set descricao",
+							"name": "void setDescricao",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3036,8 +3031,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFjUFHRI9xA="
 									},
-									"name": "String descricao",
-									"type": ""
+									"name": "String descricao"
 								}
 							]
 						},
@@ -3047,7 +3041,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDSOhz8MdK0="
 							},
-							"name": "void get nota",
+							"name": "void getNota",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3055,8 +3049,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFmiJnU4LkY="
 									},
-									"name": "Float nota",
-									"type": ""
+									"name": "float nota"
 								}
 							]
 						},
@@ -3066,7 +3059,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDSOhz8MdK0="
 							},
-							"name": "void set nota",
+							"name": "void setNota",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3074,8 +3067,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFpxxnXRIS0="
 									},
-									"name": "Float nota",
-									"type": ""
+									"name": "float nota"
 								}
 							]
 						}
@@ -3167,7 +3159,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDdcKT91CtI="
 							},
-							"name": "void set nome",
+							"name": "void setNome",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3175,8 +3167,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFV0L25lRa8="
 									},
-									"name": "String nome",
-									"type": ""
+									"name": "String nome"
 								}
 							]
 						},
@@ -3186,7 +3177,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDdcKT91CtI="
 							},
-							"name": "void get nome",
+							"name": "void getNome",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3194,8 +3185,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFV/V26zcyE="
 									},
-									"name": "String nome",
-									"type": ""
+									"name": "String nome"
 								}
 							]
 						},
@@ -3205,7 +3195,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDdcKT91CtI="
 							},
-							"name": "void set descricao",
+							"name": "void setDescricao",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3213,8 +3203,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFd83nKMurc="
 									},
-									"name": "String descricao",
-									"type": ""
+									"name": "String descricao"
 								}
 							]
 						},
@@ -3224,7 +3213,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGILDdcKT91CtI="
 							},
-							"name": "void get descricao",
+							"name": "void getDescricao",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -3232,8 +3221,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGILFeJTnLONmA="
 									},
-									"name": "String descricao",
-									"type": ""
+									"name": "String descricao"
 								}
 							]
 						}
