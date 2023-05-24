@@ -3,7 +3,7 @@ package trabalho;
 public class Disciplina {
     private Professor professor;
     private String nome;
-	private String termo;
+    private String termo;
     private String descricao;
     
     public Disciplina(String nome, String descricao) {
@@ -30,16 +30,12 @@ public class Disciplina {
     public void AdicionarProfessor(Professor professor) {
         this.professor = professor;
     }
-    
-    public void DeletarDisciplina() {
-        this.finalize();
-    }
 	
-	public void setTermo(String termo){
+    public void setTermo(String termo){
 		this.termo = termo;
 	}
-	
-	public String getTermo(){
+
+    public String getTermo(){
 		return this.termo;
 	}
 	
