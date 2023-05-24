@@ -71,7 +71,7 @@ public class Tarefa {
         this.Aluno = Aluno;       //Seta o aluno ao ArrayList Aluno da classe tarefa.
     }
 
-    public void DeletarAluno(ArrayList<String>Aluno){
-        remove(this.Aluno);
+    public void DeletarAluno(ArrayList<String>Aluno, int indice){
+        this.Aluno.remove(indice);
     }
 }
