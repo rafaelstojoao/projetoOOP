@@ -68,15 +68,14 @@ public class tarefa {
     //Funções
 
     public void DeletarTarefa(){
-        tarefa t = new tarefa();    // Cria um novo objeto tarefa;
-        t = null;                   // O deixa nulo.
+        this.finalize();           
     }
 
     public void AdicionarAluno(ArrayList<String>Aluno){
-        setAluno(Aluno);       //Seta o aluno ao ArrayList Aluno da classe tarefa.
+        this.Aluno = Aluno;       //Seta o aluno ao ArrayList Aluno da classe tarefa.
     }
 
-    public void RemoverAluno(ArrayList<String>Aluno){
-        this.getAluno(aluno) = null; //Obtém o nome do aluno e o limpa.
+    public void DeletarAluno(ArrayList<String>Aluno){
+        this.finalize();
     }
 }
