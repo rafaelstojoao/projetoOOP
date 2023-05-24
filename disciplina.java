@@ -3,6 +3,7 @@ package trabalho;
 public class Disciplina {
     private Professor professor;
     private String nome;
+	private String termo;
     private String descricao;
     
     public Disciplina(String nome, String descricao) {
@@ -33,4 +34,13 @@ public class Disciplina {
     public void DeletarDisciplina() {
         this.finalize();
     }
+	
+	public void setTermo(String termo){
+		this.termo = termo;
+	}
+	
+	public void getTermo(){
+		return this.termo;
+	}
+	
 }
