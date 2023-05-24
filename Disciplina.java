@@ -39,7 +39,7 @@ public class Disciplina {
 		this.termo = termo;
 	}
 	
-	public void getTermo(){
+	public String getTermo(){
 		return this.termo;
 	}
 	
