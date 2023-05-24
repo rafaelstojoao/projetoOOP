@@ -6,11 +6,6 @@ public class Disciplina {
     private String termo;
     private String descricao;
     
-    public Disciplina(String nome, String descricao) {
-        this.nome = nome;
-        this.descricao = descricao;
-    }
-    
     public void setNome(String nome) {
         this.nome = nome;
     }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 public class Tarefa {
 
-    public ArrayList<String> Aluno;
+    public ArrayList<Aluno> Aluno;
     public String Disciplina;
     public String Tema;
     public String Descricao;
@@ -16,12 +16,12 @@ public class Tarefa {
 
     //Getters e Setters
 
-    public ArrayList<String> getAluno() {
+    public ArrayList<Aluno> getAluno() {
         return Aluno;
     }
 
-    public void setAluno(ArrayList<String> aluno) {
-        Aluno = aluno;
+    public void setAluno(Aluno A) {
+        this.Aluno.add(A);
     }
 
     public String getTema() {
@@ -67,7 +67,7 @@ public class Tarefa {
 
     //Funções
 
-    public void AdicionarAluno(ArrayList<String>Aluno){
+    public void AdicionarAluno(ArrayList<Aluno>Aluno){
         this.Aluno = Aluno;       //Seta o aluno ao ArrayList Aluno da classe tarefa.
     }
 
