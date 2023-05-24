@@ -1,4 +1,3 @@
-package org.example;
 package trabalho;
 
 import java.util.ArrayList;
