@@ -3,7 +3,7 @@ package trabalho;
 
 public class Aluno extends Pessoa{
 	
-	void DeletarProfessor(){
+	void DeletarAluno(){
 		this.finalize();
 	}
 
