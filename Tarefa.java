@@ -1,14 +1,14 @@
 package trabalho;
 
 import java.util.ArrayList;
-
-public class tarefa {
+import java.util.Date;
+public class Tarefa {
 
     public ArrayList<String> Aluno;
     public String Disciplina;
     public String Tema;
     public String Descricao;
-    public date data;
+    public Date data;
     public float nota;
     public String Fonte;
     public String Observacoes;
@@ -67,15 +67,11 @@ public class tarefa {
 
     //Funções
 
-    public void DeletarTarefa(){
-        this.finalize();           
-    }
-
     public void AdicionarAluno(ArrayList<String>Aluno){
         this.Aluno = Aluno;       //Seta o aluno ao ArrayList Aluno da classe tarefa.
     }
 
     public void DeletarAluno(ArrayList<String>Aluno){
-        this.finalize();
+        remove(this.Aluno);
     }
 }
