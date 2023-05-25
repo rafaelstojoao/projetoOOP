@@ -1,7 +1,7 @@
 package trabalho;
 
 public class Disciplina {
-    private Professor professor;
+    private Professor professor = new Professor();
     private String nome;
     private String termo;
     private String descricao;
@@ -23,7 +23,7 @@ public class Disciplina {
     }
     
     public void AdicionarProfessor(Professor professor) {
-        this.professor = professor;
+        this.setProfessor(professor);
     }
 	
     public void setTermo(String termo){
@@ -33,5 +33,13 @@ public class Disciplina {
     public String getTermo(){
 		return this.termo;
 	}
+
+    public Professor getProfessor() {
+        return professor;
+    }
+
+    public void setProfessor(Professor professor) {
+        this.professor = professor;
+    }
 	
 }
