@@ -6,7 +6,10 @@ import java.io.FileWriter;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.sql.SQLException;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Savegame {
     
@@ -60,6 +63,12 @@ public class Savegame {
         Partida p = new Partida();
         Scanner leitor = new Scanner(System.in);
         
+        System.out.println("Digite o Nome do jogo a ser gravado: ");
+        p.setNomeJogo(leitor.nextLine());
+        
+        System.out.println("Digite o Nome do mapa: ");
+        p.setMapa(leitor.nextLine());
+        
         System.out.println("Digite o ID da partida: ");
         
         p.setId(leitor.nextInt());
@@ -80,7 +89,33 @@ public class Savegame {
         p.setJogador(j);
         
         Savegame:gravapartida(p);
+        
+        
+        ConnectionPVP c = new ConnectionPVP();
+        c.conecta();
+        
+        try {
+            c.grava ("INSERT INTO Jogador (id,Nome) VALUES("+ j.getId() + ", '" + j.getNickname() + "');");
+            c.listdata();
+        } catch (SQLException ex) {
+            Logger.getLogger(Savegame.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        try {
+            c.grava ("INSERT INTO Partida (NomeJogo, HoraPartida, Mapa,Pontuacao, Jogador, Id) VALUES("
+                    + "'"+ p.getNomeJogo() + "'"
+                    + ",'"+ p.getHoraPartida() + "'"
+                    + ",'"+ p.getMapa() + "'"
+                    + ", "+ p.getPontuacao()
+                    + ",'"+ p.getJogador().getNickname() + "'"
+                    + ", "+ p.getJogador().getId()
+                            + ");");
+            c.listdata();
+        } catch (SQLException ex) {
+            Logger.getLogger(Savegame.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
    
 }
+
